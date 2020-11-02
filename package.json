@@ -1,0 +1,38 @@
+{
+  "name": "node-arch",
+  "version": "1.0.0",
+  "description": "A NodeJS microsservice's architecture in Typescript",
+  "main": "src/main.ts",
+  "engines": {
+    "node": "f>=12.19.x <=14.15.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node bin/main.js",
+    "dev": "nodemon",
+    "test": "echo 'none tests yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagner-nascimento/node-arch.git"
+  },
+  "keywords": [
+    "Node",
+    "NodeJS",
+    "Typescript",
+    "Microsservice",
+    "Architecture"
+  ],
+  "author": "Vagner Nascimento <vagnernasc88@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~4.0.5",
+    "@types/node": "~14.14.6",
+    "ts-node": "~9.0.0",
+    "nodemon": "~2.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/vagner-nascimento/node-arch/issues"
+  },
+  "homepage": "https://github.com/vagner-nascimento/node-arch#readme"
+}
